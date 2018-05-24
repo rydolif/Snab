@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Snab</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="icon" href="img/favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+	<meta name="theme-color" content="#000">
+</head>
+
+<body>
+
+	<div class="preloader">
+		<div class="pulse"></div>
+	</div>
+
+	<header class="header" id="header" style="background-image: url(img/header-bg.jpg)">
+		<div class="header__top">
+			<div class="container">
+				<div class="header__top-block">
+
+					<a href="index.html"><img src="img/logo.svg" alt="logo" class="header__logo" height="50" width="270"></a>
+					
+					<button class="hamburger hamburger--3dx" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+
+					<nav class="header__nav">
+						<ul>
+							<li><a href="#calculation">Расчёт проекта</a></li>
+							<li><a href="#services">Услуги</a></li>
+							<li><a href="#equipment">Оборудование</a></li>
+							<li><a href="#cooperate">Почему мы</a></li>
+							<li><a href="#examples">Примеры работ</a></li>
+							<li><a href="#contact ">Контакты</a></li>
+						</ul>
+
+						<div class="header__nav_call">
+							<span>пн-пт  с 9:00 до 20:00</span><br>
+							<a href="tel:+7(707)339-32-05">+7 (707) 339-32-05</a>
+						</div>
+
+						<a href="#" class="btn order_open">Заказать звонок</a>
+
+					</nav>
+
+					<div class="header__call">
+						
+						<span>пн-пт  с 9:00 до 20:00</span>
+						<a href="tel:+7(707)339-32-05">+7 (707) 339-32-05</a>
+						
+					</div>
+
+					<a href="#" class="header__top_btn order_open">Заказать звонок</a>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="header__center">
+			<div class="container">
+						
+				<h1 class="wow slideInLeft">Монтаж щитового оборудования <br>с гарантией до 5 лет</h1>
+
+				<p class="wow slideInLeft">Проектирование, продажа, сборка</p>
+				
+				<ul class="header__items">
+					<li><img src="img/icon/flash.svg" alt="Низковольтное оборудование" height="31" width="18">Низковольтное <br>оборудование</li>
+					<li><img src="img/icon/fuel.svg" alt="Низковольтное оборудование" height="30" width="25">Трансформаторы, <br>подстанции до 10 кВ</li>
+					<li><img src="img/icon/truck.svg" alt="Низковольтное оборудование" height="30" width="36">Бесплатная доставка <br>по Алматы</li>
+				</ul>
+
+			</div>
+		</div>
+
+	</header>
+
+	<div class="container">
+		<div class="header__bottom">
+
+			<div class="header__bottom_box">
+				<h2>У вас уже есть схема или спецификация?</h2>
+				<p>Оставьте заявку и мы просчитаем ваш проект <br>в течение 1 рабочего дня!</p>
+			</div>
+
+			<a href="#" class="btn application_open">Оставить заявку</a>
+			
+		</div>
+	</div>
+
+	<main class="main">
+
+		<section class="calculation" id="calculation">
+			<div class="container">
+
+				<h2>Подготовим в течение дня<br>
+					<span>персональное предложение, в котором <br>
+					будут указаны:
+					</span>
+				</h2>
+
+				<div class="row">
+
+					<div class="col-lg-6">
+						<div class="calculation__box">
+
+							<div class="calculation__box_block ">
+								<div><span>01</span></div>
+								<img src="img/icon/gear.svg" alt="Технические характеристики" width="60" height="60">
+								<h3>Технические характеристики </h3>
+								<p>Мы изготавливаем щитовое оборудование только на материалах передовых производителей</p>
+							</div>
+
+							<div class="calculation__box_block">
+								<div><span>02</span></div>
+								<img src="img/icon/label.svg" alt="Стоимость" width="59" height="54">
+								<h3>Стоимость</h3>
+								<p>Мы предоставляем самые низкие цены на сборку всего электротехнического оборудования</p>
+							</div>
+
+							<div class="calculation__box_block" >
+								<div><span>03</span></div>
+								<img src="img/icon/list.svg" alt="Условия поставки" width="42" height="58">
+								<h3>Условия поставки</h3>
+								<p>Сроки доставки по Алматы зависят от работы конкретной транспортной компании и адреса покупателя</p>
+							</div>
+						
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						
+						<div class="calculation__form form">
+
+							<h2>Заполните поля<br> <b>и прикрепите документ</b> <span>(если есть)</span></h2>
+
+						  <form action="mail.php" class="calculation-form" method="post" enctype="multipart/form-data">
+
+								<input type="hidden" name="subject" value="Поможем запустить систему энергоснабжения в срок и сдать объект без проблем">
+
+								<input type="text" name="name" class="form__field" placeholder="Как к вам обращаться?" required>
+
+								<input type="tel" name="phone" class="form__field" required placeholder="Введите ваш телефон:" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+
+								<input type="email" name="email" class="form__field" required placeholder="Укажите email:" placeholder="Введите ваш телефон:">
+
+								<div class="fl_upld">
+									<label for="calculation__file" class="form__affix">
+										<input type="file" id="calculation__file" id="fl_nm" name="upload" multiple required>
+										<img src="img/icon/paperclip.svg" alt="Прикрепите" width="8" height="14">
+										<span>Прикрепите</span> документ (формат: docx, xls)
+										<div id="fl_nm">Файл не выбран</div>
+									</label>
+								</div>
+
+								<button class="btn form__btn" type="submit">Заказать звонок</button>
+
+								<input type="checkbox" class="checkbox" id="calculation__checkbox">
+								<label  for="calculation__checkbox" class="label label__active">
+								Нажимая на кнопку, вы соглашаетесь с 
+									<br><a href="#">Политикой конфиденциальности</a> и даёте согласие 
+									<br>на обработку персональных данных
+								</label>
+
+						  </form>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="additionally" id="additionally" style="background-image: url(img/additionally-bg.jpg)">
+			<div class="container">
+
+				<div class="additionally__box">
+
+					<div class="additionally__box_block wow slideInLeft">
+						<div><span>01</span></div>
+						<img src="img/icon/electric-meter.svg" alt="Технические характеристики" width="90" height="105">
+						<h3>15 лет</h3>
+						<p>Собираем электрощитовое <br>оборудование</p>
+					</div>
+
+					<div class="additionally__box_block wow slideInLeft">
+						<div><span>02</span></div>
+						<img src="img/icon/lightning.svg" alt="Стоимость" width="90" height="105">
+						<h3>от 2 дней</h3>
+						<p>Выполняем срочный заказ</p>
+					</div>
+
+					<div class="additionally__box_block wow slideInLeft">
+						<div><span>03</span></div>
+						<img src="img/icon/idea.svg" alt="Условия поставки" width="95" height="110">
+						<h3>на 100 %</h3>
+						<p>Гарантируем качество <br>всех работ и комплектующих</p>
+					</div>
+				
+				</div>
+
+			</div>
+		</section>
+
+		<section class="services" id="services">
+			<div class="container">
+				
+				<h2 class="wow slideInLeft">Алматы Электро Снаб <span>решает все задачи: <br>от подбора комплектующих до работ </span> <b>"под ключ"</b>
+				</h2>
+
+				<div class="services__list">
+					<div class="services__list_item">
+						<div class="services__content">
+							<h3>Выполняем сборку <br>по типовым и индивидуальным схемам </h3>
+							<ul>
+								<li>Соблюдаем правила устройства электроустановок, ГОСТы и стандарты безопасности </li>
+								<li>Производим металлические корпуса, ящики, боксы <br>нестандартных размеров</li>
+							</ul>
+						</div>
+						<div class="services__img"><img src="img/services/services-one.jpg" alt="Выполняем сборку"></div>
+					</div>
+
+					<div class="services__list_item">
+						<div class="services__img"><img src="img/services/services-two.jpg" alt="Выполняем сборку"></div>
+						<div class="services__content">
+							<h3>Проектируем новое и модернизируем существующее оборудование</h3>
+							<ul>
+								<li>Готовим документы, выполняем расчёты, делаем фопосъёмку</li>
+								<li>Просчитываем варианты под определённый бюджет и нагрузки</li>
+								<li>Модернизируем электроустановки жилых зданий и промышленных объектов.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="services" style="background-image: url(img/services-bg.png)">
+			<div class="container">
+
+				<div class="services__list">
+					<div class="services__list_item">
+						<div class="services__content">
+							<h3>Выполняем монтаж, шефмонтаж и пусконаладку </h3>
+							<ul>
+								<li>Делаем всё по правилам, чтобы вся система, от подстанции до отдельного щита работала стабильно, без сбоев.</li>
+							</ul>
+						</div>
+						<div class="services__img"><img src="img/services/services-one.jpg" alt="Выполняем сборку"></div>
+					</div>
+
+					<div class="services__list_item">
+						<div class="services__img"><img src="img/services/services-two.jpg" alt="Выполняем сборку"></div>
+						<div class="services__content">
+							<h3>Подбираем комплектующие для сборки</h3>
+							<ul>
+								<li>Низковольтные автоматы, пускорегулирующую, защитно-коммутационную аппаратуру от ведущих европейских и российских производителей.</li>
+								<li>Доступен самовывоз со склада в Алматы, бесплатная доставка по городу или платная в регионы.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="equipment" id="equipment">
+			<div class="container">
+
+				<h2 class="wow slideInLeft">Собираем, доставляем, монтируем <br><span>более 1000 позиций электрощитового оборудования</span></h2>
+				
+				<div class="equipment__box">
+					<div class="equipment__box_card equipment__box_card-active">
+						<img src="img/card/1.jpg" alt="card">
+						<h4>Комплектная трансформаторная подстанция </h4>
+						<p>Для распределения электрической энергии, защиты электрических установок при перегрузках и токах короткого замыкания</p>
+					</div>
+
+					<div class="equipment__box_card">
+						<img src="img/card/2.jpg" alt="card">
+						<h4>Вводно-распределительные устройства </h4>
+						<p>Для распределения электрической энергии, защиты электрических установок при перегрузках и токах короткого замыкания</p>
+					</div>
+
+					<div class="equipment__box_card">
+						<img src="img/card/3.jpg" alt="card">
+						<h4>Шкафы управления</h4>
+						<p>Для распределения электрической энергии, защиты электрических установок при перегрузках и токах короткого замыкания</p>
+					</div>
+
+					<div class="equipment__box_card">
+						<img src="img/card/4.jpg" alt="card">
+						<h4>Комплектные распределительные устройства</h4>
+						<p>Для распределения электрической энергии, защиты электрических установок при перегрузках и токах короткого замыкания</p>
+					</div>
+
+					<div class="equipment__box_card">
+						<img src="img/card/5.jpg" alt="card">
+						<h4>Щиты освещения</h4>
+						<p>Для распределения электрической энергии, защиты электрических установок при перегрузках и токах короткого замыкания</p>
+					</div>
+
+					<div class="equipment__box_card">
+						<img src="img/card/6.jpg" alt="card">
+						<h4>Ящик управления ШУ5000</h4>
+						<p>Для распределения электрической энергии, защиты электрических установок при перегрузках и токах короткого замыкания</p>
+					</div>
+
+					<div class="equipment__box_card">
+						<img src="img/card/7.jpg" alt="card">
+						<h4>Пункт распределительный </h4>
+						<p>Для распределения электрической энергии, защиты электрических установок при перегрузках и токах короткого замыкания</p>
+					</div>
+
+					<div class="equipment__box_card">
+						<img src="img/card/8.jpg" alt="card">
+						<h4>Щиты этажные ЩЭ</h4>
+						<p>Для распределения электрической энергии, защиты электрических установок при перегрузках и токах короткого замыкания</p>
+					</div>
+
+					<div class="equipment__box_card">
+						<img src="img/card/9.jpg" alt="card">
+						<h4>Щит автоматического переключения</h4>
+						<p>Для распределения электрической энергии, защиты электрических установок при перегрузках и токах короткого замыкания</p>
+					</div>
+
+					<div class="equipment__box_card">
+						<img src="img/card/10.jpg" alt="card">
+						<h4>Ящик силовой</h4>
+						<p>Для распределения электрической энергии, защиты электрических установок при перегрузках и токах короткого замыкания</p>
+					</div>
+
+					<div class="equipment__box_card">
+						<img src="img/card/11.jpg" alt="card">
+						<h4>Щит квартирный, коттеджный</h4>
+						<p>Для распределения электрической энергии, защиты электрических установок при перегрузках и токах короткого замыкания</p>
+					</div>
+
+					<div class="equipment__box_card">
+						<img src="img/card/12.jpg" alt="card">
+						<h4>Установка компенсации реактивной мощности </h4>
+						<p>Для распределения электрической энергии, защиты электрических установок при перегрузках и токах короткого замыкания</p>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="consultation" style="background-image: url(img/consultation-bg.jpg)">
+			<div class="container">
+				
+				<h2 >Какое оборудование вам нужно?</h2>
+
+				<p>Позвоните <b>+7 (707) 339-32-05</b> или <b>оставьте заявку на консультацию</b><br> Ответим на вопросы и рассчитаем стоимость сборки комплекта</p>
+				
+				<a href="#" class="btn consultation__btn order-consultation_open">Заказать консультацию</a>
+
+				<img src="img/consultation-img.png" alt="Заказать">
+
+			</div>
+		</section>
+
+		<section class="cooperate" id="cooperate">
+			<div class="container">
+				
+				<h2 class="wow slideInLeft">Почему с нами сотрудничают <br><span>лидеры строительной индустрии?</span></h2>
+
+				<div class="row">
+					<div class="col-md-6">
+
+						<div class="cooperate__box">
+							<div class="cooperate__block">
+								<img src="img/cooperate/img-one.jpg" alt="Почему с нами сотрудничают" class="cooperate__img">
+									<h4>Цены производителя</h4>
+									<p>Собираем электрощитовое оборудование сами, помогаем оптимизировать затраты и уложиться в джет</p>
+							</div>
+
+							<div class="cooperate__block cooperate__block-revers">
+								<h4>Качество без компромиссов</h4>
+								<p>Собираем электрощитовое оборудование из комплектующих проверенных производителей</p>
+								<div class="cooperate__box">
+									<a href="#" class="cooperate__box_block" target="_blank"><img src="img/cooperate/one.png" alt=""></a>
+									<a href="#" class="cooperate__box_block" target="_blank"><img src="img/cooperate/two.png" alt=""></a>
+									<a href="#" class="cooperate__box_block" target="_blank"><img src="img/cooperate/three.png" alt=""></a>
+									<a href="#" class="cooperate__box_block" target="_blank"><img src="img/cooperate/four.png" alt=""></a>
+									<a href="#" class="cooperate__box_block" target="_blank"><img src="img/cooperate/five.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-6">
+						<div class="cooperate__block cooperate__block-big">
+							<img src="img/cooperate/img-two.jpg" alt="Почему с нами сотрудничают" class="cooperate__img">
+								<h4>Юридически закреплённая гарантия</h4>
+								<p>Гарантийные обязательства прописаны в договоре, подтверждены документально. </p>
+								<p><b>Сломается - заменим</b></p>
+								<a href="doc.docx" download><img src="img/icon/download.svg" alt="download" width="20" height="20">Скачать договор</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="examples" id="examples">
+			<div class="container">
+				
+				<h2>Наше оборудование обеспечивает <br><span>стабильную работу <b>700+</b> объектов по всему Казахстану</span></h2>
+
+				<div class="row">
+					<div class="col-lg-7">
+						<div class="slider__container">
+							<div class="slider__img">
+									<a href="img/slider/1.jpg" data-fancybox="gallery"><img src="img/slider/1.jpg" alt="slide"></a>
+									<a href="img/slider/1.jpg" data-fancybox="gallery"><img src="img/slider/1.jpg" alt="slide"></a>
+									<a href="img/slider/1.jpg" data-fancybox="gallery"><img src="img/slider/1.jpg" alt="slide"></a>
+									<a href="img/slider/1.jpg" data-fancybox="gallery"><img src="img/slider/1.jpg" alt="slide"></a>
+									<a href="img/slider/1.jpg" data-fancybox="gallery"><img src="img/slider/1.jpg" alt="slide"></a>
+									<a href="img/slider/1.jpg" data-fancybox="gallery"><img src="img/slider/1.jpg" alt="slide"></a>
+							</div>
+							<span id="namber"><span>1</span> / 6</span>
+						</div>
+					</div>
+
+					<div class="col-lg-5">
+						<div class="slider__text">
+							<table>
+								<tr>
+									<td colspan="2"><h3>1Жилищный комплекс <br>The New Tower X</h3></td>
+								</tr>
+								<tr>
+									<td>
+										<b>Суммарная <br>мощность:</b>
+									</td>
+									<td>
+										<p>342 000W</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<b>Выполненные <br>работы:</b>
+									</td>
+									<td>
+										<p>Полное обеспечение жилищного комплекса электротехнической продукцией (16 щитов обеспечения, 200 ШК. 40 ЩЭ). Сборка 300+ комплектов оборудования, монтаж в сжатые сроки.</p>
+									</td>
+								</tr>
+							</table>
+
+							<table>
+								<tr>
+									<td colspan="2"><h3>2Жилищный комплекс <br>The New Tower X</h3></td>
+								</tr>
+								<tr>
+									<td>
+										<b>Суммарная <br>мощность:</b>
+									</td>
+									<td>
+										<p>342 000W</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<b>Выполненные <br>работы:</b>
+									</td>
+									<td>
+										<p>Полное обеспечение жилищного комплекса электротехнической продукцией (16 щитов обеспечения, 200 ШК. 40 ЩЭ). Сборка 300+ комплектов оборудования, монтаж в сжатые сроки.</p>
+									</td>
+								</tr>
+							</table>
+
+							<table>
+								<tr>
+									<td colspan="2"><h3>3Жилищный комплекс <br>The New Tower X</h3></td>
+								</tr>
+								<tr>
+									<td>
+										<b>Суммарная <br>мощность:</b>
+									</td>
+									<td>
+										<p>342 000W</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<b>Выполненные <br>работы:</b>
+									</td>
+									<td>
+										<p>Полное обеспечение жилищного комплекса электротехнической продукцией (16 щитов обеспечения, 200 ШК. 40 ЩЭ). Сборка 300+ комплектов оборудования, монтаж в сжатые сроки.</p>
+									</td>
+								</tr>
+							</table>
+
+							<table>
+								<tr>
+									<td colspan="2"><h3>4Жилищный комплекс <br>The New Tower X</h3></td>
+								</tr>
+								<tr>
+									<td>
+										<b>Суммарная <br>мощность:</b>
+									</td>
+									<td>
+										<p>342 000W</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<b>Выполненные <br>работы:</b>
+									</td>
+									<td>
+										<p>Полное обеспечение жилищного комплекса электротехнической продукцией (16 щитов обеспечения, 200 ШК. 40 ЩЭ). Сборка 300+ комплектов оборудования, монтаж в сжатые сроки.</p>
+									</td>
+								</tr>
+							</table>
+
+							<table>
+								<tr>
+									<td colspan="2"><h3>5Жилищный комплекс <br>The New Tower X</h3></td>
+								</tr>
+								<tr>
+									<td>
+										<b>Суммарная <br>мощность:</b>
+									</td>
+									<td>
+										<p>342 000W</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<b>Выполненные <br>работы:</b>
+									</td>
+									<td>
+										<p>Полное обеспечение жилищного комплекса электротехнической продукцией (16 щитов обеспечения, 200 ШК. 40 ЩЭ). Сборка 300+ комплектов оборудования, монтаж в сжатые сроки.</p>
+									</td>
+								</tr>
+							</table>
+
+							<table>
+								<tr>
+									<td colspan="2"><h3>6Жилищный комплекс <br>The New Tower X</h3></td>
+								</tr>
+								<tr>
+									<td>
+										<b>Суммарная <br>мощность:</b>
+									</td>
+									<td>
+										<p>342 000W</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<b>Выполненные <br>работы:</b>
+									</td>
+									<td>
+										<p>Полное обеспечение жилищного комплекса электротехнической продукцией (16 щитов обеспечения, 200 ШК. 40 ЩЭ). Сборка 300+ комплектов оборудования, монтаж в сжатые сроки.</p>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+			
+				</div>
+
+			</div>
+		</section>
+
+		<section class="calculation calculation-two" style="background-image: url(img/calculation-bg.png)">
+			<div class="container">
+
+				<h2 class="wow bounceInUp">Поможем запустить систему <br><span>энергоснабжения в срок и сдать объект без проблем</span></h2>
+
+				<div class="row">
+
+					<div class="col-lg-6">
+						
+						<div class="calculation__form form">
+
+							<h2>Заполните поля<br> <b>и прикрепите документ</b> <span>(если есть)</span></h2>
+
+						  <form action="mail.php" class="calculation-form_two" method="post" enctype="multipart/form-data">
+
+								<input type="hidden" name="subject" value="Поможем запустить систему энергоснабжения в срок и сдать объект без проблем">
+
+								<input type="text" name="name" class="form__field" placeholder="Как к вам обращаться?" required>
+
+								<input type="tel" name="phone" class="form__field" required placeholder="Введите ваш телефон:" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+
+								<input type="email" name="email" class="form__field" required placeholder="Укажите email:" required>
+								
+								<div class="fl_upld">
+									<label for="calculation-two__file" class="form__affix">
+										<input type="file" id="calculation-two__file" id="fl_nml" name="upload" multiple required>
+										<img src="img/icon/paperclip.svg" alt="Прикрепите" width="8" height="14">
+										<span>Прикрепите</span> документ (формат: docx, xls)
+										<div id="fl_nm">Файл не выбран</div>
+									</label>
+								</div>
+
+								<button class="btn form__btn" type="submit">Заказать звонок</button>
+
+								<input type="checkbox" class="checkbox" id="calculation-two__checkbox">
+								<label  for="calculation-two__checkbox" class="label label__active">Нажимая на кнопку, вы соглашаетесь с 
+									<br><a href="#">Политикой конфиденциальности</a> и даёте согласие 
+									<br>на обработку персональных данных
+								</label>
+
+						  </form>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+
+						<p class="calculation-two__p"><b>Оставьте заявку</b> - мы подготовим в <br>течение дня персональное предложение <br>с указанием:</p>
+						<div class="calculation__box">
+
+							<div class="calculation__box_block ">
+								<div><span>01</span></div>
+								<img src="img/icon/gear.svg" alt="Технические характеристики" width="60" height="60">
+								<h3>Технических характеристик каждого устройства</h3>
+							</div>
+
+							<div class="calculation__box_block">
+								<div><span>02</span></div>
+								<img src="img/icon/label.svg" alt="Стоимость" width="59" height="54">
+								<h3>Стоимости <br>комплектующих <br>работ</h3>
+							</div>
+
+							<div class="calculation__box_block" >
+								<div><span>03</span></div>
+								<img src="img/icon/list.svg" alt="Условия поставки" width="42" height="58">
+								<h3>Условия поставки</h3>
+
+							</div>
+						
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+
+		<div class="map" id="contact"></div>
+
+	</main>
+	
+	<footer class="footer" id="footer">
+		<div class="container">
+
+			<div class="footer__container">
+
+				<div class="footer__logo">
+					<a href="index.html"><img src="img/logo.svg" alt="logo" height="50" width="270" ></a>
+					<a href="#">Политика конфиденциальности</a>
+				</div>
+
+
+				<div class="footer__nav">
+					<ul>
+						<li><a href="#calculation">Расчёт проекта</a></li>
+						<li><a href="#services">Услуги</a></li>
+						<li><a href="#equipment">Оборудование</a></li>
+						<li><a href="#cooperate">Почему мы</a></li>
+						<li><a href="#examples">Примеры работ</a></li>
+						<li><a href="#map">Контакты</a></li>
+					</ul>
+				</div>
+
+				<div class="footer__soc">
+					<span>Мы в социальных сетях:</span>
+					<div>
+						<a href="#" target="_blank"><img src="img/icon/tv.svg" alt="tv" height="30" width="30"></a>
+						<a href="#" target="_blank"><img src="img/icon/vk.svg" alt="vk" height="30" width="30"></a>
+						<a href="#" target="_blank"><img src="img/icon/fb.svg" alt="fb" height="30" width="30"></a>
+					</div>
+					<a href="#"><img src="img/icon/footer-mail.svg" alt="mail" width="20" height="15">Aes_electro@mail.ru</a>
+				</div>
+
+				<div class="footer__quection">
+					<h3>Остались вопросы?</h3>
+					<a href="#" class="footer__btn order_open">Заказать звонок</a>
+					<span><img src="img/icon/footer-label.svg" alt="label" width="15" height="15">г.Алматы, пр. Сейфуллина, 563</span>
+				</div>
+			</div>
+
+			<div class="footer__copy">
+				<span>Все права защищены © Almaty Electro Snab</span>
+			</div>
+
+		</div>
+	</footer>
+
+	<div class="modal" id='order'>
+
+		<div class="form">
+			<h2>Оставьте свои контактные данные, <br>
+				<span>	я перезвоню вам в течении 10 минут и отвечу на вопросы, <br>
+				касающиеся оборудования
+				</span>
+			</h2>
+			<b>(на связи с 9:00 - 19:00)</b>
+			<button class="hamburger hamburger--elastic is-active order_close" type="button">
+			  <span class="hamburger-box">
+			    <span class="hamburger-inner"></span>
+			  </span>
+	  	</button>
+		
+		<div class="form__container">
+			<div class="form__img">
+				<img src="img/man.jpg" alt="">
+				<p>Сангаджи Тарбаев<br>
+					<span>Инженер</span>
+				</p>
+			</div>
+
+		  <form action="sendmail.php" class="order" method="post">
+
+				<input type="hidden" name="subject" value="Заказать звонок">
+
+				<input type="text" name="name" class="form__field" placeholder="Как к вам обращаться?" required>
+
+				<input type="tel" name="phone" class="form__field" required placeholder="Введите ваш телефон:" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+
+				<input type="email" name="email" class="form__field" required placeholder="Укажите email:">
+
+				<button class="btn form__btn">Перезвоните мне</button>
+
+				<input type="checkbox" class="checkbox" id='checkbox__order'>
+				<label for="checkbox__order" class="label label__active">Нажимая на кнопку, вы соглашаетесь с 
+					<br>Политикой конфиденциальности и даёте согласие 
+					<br>на обработку персональных данных
+				</label>
+
+		  </form>
+
+		</div>
+		</div>
+	</div>
+
+	<div class="modal" id='application'>
+		<div class="form">
+
+			<h2>Оставьте свои контактные данные, <br>
+				<span>	я перезвоню вам в течении 10 минут и отвечу на вопросы, <br>
+				касающиеся оборудования
+				</span>
+			</h2>
+			<b>(на связи с 9:00 - 19:00)</b>
+			<button class="hamburger hamburger--elastic is-active application_close" type="button">
+			  <span class="hamburger-box">
+			    <span class="hamburger-inner"></span>
+			  </span>
+	  	</button>
+		
+		<div class="form__container">
+			<div class="form__img">
+				<img src="img/man.jpg" alt="">
+				<p>Сангаджи Тарбаев<br>
+					<span>Инженер</span>
+				</p>
+			</div>
+
+			  <form action="sendmail.php" class="application" method="post">
+
+					<input type="hidden" name="subject" value="Оставить заявку">
+
+					<input type="text" name="name" class="form__field" placeholder="Как к вам обращаться?" required>
+
+					<input type="tel" name="phone" class="form__field" required placeholder="Введите ваш телефон:" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+
+					<input type="email" name="email" class="form__field" required placeholder="Укажите email:">
+
+					<button class="btn form__btn">Оставить заявку</button>
+
+					<input type="checkbox" class="checkbox"  id='application__checkbox'>
+					<label for="application__checkbox" class="label label__active">Нажимая на кнопку, вы соглашаетесь с 
+						<br><a href="#">Политикой конфиденциальности</a> и даёте согласие 
+						<br>на обработку персональных данных
+					</label>
+
+			  </form>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" id='order-consultation'>
+		<div class="form">
+
+			<h2>Оставьте свои контактные данные, <br>
+				<span>	я перезвоню вам в течении 10 минут и отвечу на вопросы, <br>
+				касающиеся оборудования
+				</span>
+			</h2>
+			<b>(на связи с 9:00 - 19:00)</b>
+			<button class="hamburger hamburger--elastic is-active order-consultation_close" type="button">
+			  <span class="hamburger-box">
+			    <span class="hamburger-inner"></span>
+			  </span>
+	  	</button>
+		
+		<div class="form__container">
+			<div class="form__img">
+				<img src="img/man.jpg" alt="">
+				<p>Сангаджи Тарбаев<br>
+					<span>Инженер</span>
+				</p>
+			</div>
+
+			  <form action="sendmail.php" class="order-consultation" method="post">
+
+					<input type="hidden" name="subject" value="Заказать консультацию">
+
+					<input type="text" name="name" class="form__field" placeholder="Как к вам обращаться?" required>
+
+					<input type="tel" name="phone" class="form__field" required placeholder="Введите ваш телефон:" pattern="\+7\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}">
+
+					<input type="email" name="email" class="form__field" required placeholder="Укажите email:">
+
+					<button class="btn form__btn">Заказать консультацию</button>
+
+					<input type="checkbox" class="checkbox" id='order-consultation__checkbox'>
+					<label for="order-consultation__checkbox" class="label label__active">Нажимая на кнопку, вы соглашаетесь с 
+						<br><a href="#">Политикой конфиденциальности</a> и даёте согласие 
+						<br>на обработку персональных данных
+					</label>
+
+			  </form>
+
+		</div>
+		</div>
+	</div>
+
+<!-- 	<div class="modal" id='thanks'>
+		<div class="form">
+
+			<button class="hamburger hamburger--elastic is-active thanks_close" type="button">
+			  <span class="hamburger-box">
+			    <span class="hamburger-inner"></span>
+			  </span>
+	  	</button>
+
+			<h2 class="form__title">Спасибо за заказ
+			<br><span>Скоро мы Вам перезвоним!</span>
+			</h2>
+
+		</div>
+	</div> -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+	<script>
+   new WOW().init();
+  </script>
+
+	<script>
+      function initMap() {
+        var uluru = {lat: 43.2550779, lng: 76.9305792};
+        var map = new google.maps.Map(document.getElementById('contact'), {
+          zoom: 15,
+          center: uluru,
+          styles: [
+    {
+        "featureType": "administrative",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "lightness": 33
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#e9e6db"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#c5dac6"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "lightness": 20
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "all",
+        "stylers": [
+            {
+                "lightness": 20
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#c5c6c6"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#e4d7c6"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#fbfaf7"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#acbcc9"
+            }
+        ]
+    }
+]
+
+        });
+
+
+          var marker = new google.maps.Marker({
+            position: {lat: 43.2490779, lng: 76.9305792},
+            map: map,
+            icon: 'img/mark.png'
+          });
+
+         var contentString = 
+        	'<div class="map__content">'+
+        	'<img src="img/map.jpg" alt="map">'+
+	         	'<div class="map__box">'+
+		          '<h4 class="map__title">Свяжитесь с нами или <span><br>приходите в гости!</span></h4>'+
+		          '<div class="map__address"><span>Адрес:</span>  г.Алматы, пр. Сейфуллина, 563</div>'+
+		          '<div class="map__address"><span>Телефон:</span> <a href="tel:+7(707)339-32-05">+7 (701) 339-32-05</a></div>'+
+		          '<div class="map__address"><span>E-mail:</span>  <a href="#">aes_electro@mail.ru</a></div>'+
+		        '</div>'+
+        	'</div>';
+
+          var infowindow = new google.maps.InfoWindow({
+                content: contentString
+              });
+
+              infowindow.open(map, marker);
+
+          }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmnk4RCDwjSucIJ2WXRnLkuCrsWR4DUM4&callback=initMap"></script>
+
+
+</body>
+</html>
